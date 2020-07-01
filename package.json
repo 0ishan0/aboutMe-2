@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/ishanbagchi/portfolio/issues"
   },
-  "homepage": "https://github.com/ishanbagchi/portfolio#readme"
+  "homepage": "https://github.com/ishanbagchi/portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1"
+  }
 }
