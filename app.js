@@ -19,5 +19,5 @@ app.post('/createbadge', (req, res) => {
 })
 
 app.listen(process.env.PORT || 3000, process.env.ID, () => {
-    console.log("Your app is running in 'https://git-badge-oxdbg.run-us-west2.goorm.io'");
+    console.log("Your app is running in 'https://portfolio-gsdm.run-ap-south1.goorm.io'");
 });
