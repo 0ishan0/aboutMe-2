@@ -6,7 +6,8 @@ h1 {
     color: #10ac84;
 }
 
-header {
+header,
+footer {
     background: #7F7FD5;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -14,7 +15,19 @@ header {
     border-radius: 5px;
 }
 
+footer {
+    bottom: 15px;
+    width: 95%;
+    position: fixed;
+}
+
 header > p {
+    padding-top: .3em;
+    padding-left: .5em;
+}
+
+footer > p {
+    margin-top: 0;
     padding-top: .3em;
     padding-left: .5em;
 }
@@ -53,8 +66,26 @@ img {
     font-size: 150%;
 }
 
-.links {
+.links, 
+.communities {
     padding-left: 1em;
+}
+
+ul {
+    list-style: none;
+}
+  
+ul li::before {
+    content: "\2022";
+    color: #576574; 
+    font-weight: bolder;
+    display: inline-block; 
+    width: 2em;
+    margin-left: -1em; 
+}
+
+li {
+    margin-bottom: 2px;
 }
 
 ul > li > a > span {
