@@ -6,17 +6,6 @@ h1 {
     color: #10ac84;
 }
 
-img {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    border: 3px;
-    margin-top: 10px;
-    margin-left: 60%;
-    border-style: solid;
-    border-color: #130f40;
-}
-
 header {
     background: #7F7FD5;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
@@ -38,6 +27,17 @@ header > p {
 .lname {
     color: #130f40;
     font-weight: bold;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 3px;
+    margin-top: 10px;
+    margin-left: 210px;
+    border-style: solid;
+    border-color: #7F7FD5;
 }
 
 .about-me {
