@@ -93,13 +93,70 @@ li {
 
 ul > li > a > span {
     font-weight: bolder;
+    font-size: 1.2em;
+    text-emphasis: none;
 }
 
 .false {
     height: 37px;
 }
 
+code {
+    font-family: Consolas,"courier new";
+    color: crimson;
+    background-color: #333;
+    padding: 2px;
+    font-size: 105%;
+    border-radius: 5px;
+}
+
+/* link style */
+
+a:link {
+    text-decoration: none;
+    color: #7F7FD5;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #7F7FD5;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #7F7FD5;
+}
+
+a:active {
+    text-decoration: none;
+    color: #7F7FD5;
+}
+
+/* end link style */
+
 .love {
     color: red;
     font-weight: bolder;
+}
+
+/* social link color */
+
+.fb {
+    color: #3b5998;
+}
+
+.twitter {
+    color: #00acee;
+}
+
+.github {
+    color: #333;
+}
+
+.devbyte {
+    color: #07d504;
+}
+
+.hack-club {
+    color: #ED213A;
 }
